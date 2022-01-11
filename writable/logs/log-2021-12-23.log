@@ -1,0 +1,155 @@
+CRITICAL - 2021-12-23 00:57:38 --> Undefined array key "Name"
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Views\students\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('students/index....', Array, true)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): view('students/index....', Array)
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-23 01:06:38 --> Undefined array key "Name"
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Views\students\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('students/index....', Array, true)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): view('students/index....', Array)
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-23 01:16:46 --> Undefined property: App\Controllers\StudentController::$StudentModel
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-23 01:18:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Health Section', 'come2suku@gmail.com', '9999999999', 'BCA')' at line 1
+CRITICAL - 2021-12-23 01:18:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Health Section', 'come2suku@gmail.com', '9999999999', 'BCA')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(51): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-23 01:35:01 --> Undefined array key "Name"
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Views\students\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('students/index....', Array, true)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): view('students/index....', Array)
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-23 01:38:16 --> Undefined property: App\Controllers\StudentController::$StudentModel
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-23 01:40:10 --> Cannot call constructor
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(801): App\Controllers\StudentController->__construct()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-23 01:42:26 --> Undefined property: App\Controllers\StudentController::$load
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-23 01:44:24 --> Undefined property: App\Controllers\StudentController::$load
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-23 01:48:56 --> Undefined property: App\Controllers\StudentController::$Student_Model
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-23 01:53:00 --> Cannot call constructor
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(801): App\Controllers\StudentController->__construct()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-23 01:55:46 --> Undefined property: App\Controllers\StudentController::$load
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(801): App\Controllers\StudentController->__construct()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-23 01:56:48 --> Class "App\Controllers\Controller" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-23 02:43:33 --> Class "App\Controllers\Controller" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-23 02:43:49 --> Cannot call constructor
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(801): App\Controllers\StudentController->__construct()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-23 02:44:03 --> Undefined property: App\Controllers\StudentController::$load
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(801): App\Controllers\StudentController->__construct()
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-23 03:00:38 --> Class "App\Models\StudentModel" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

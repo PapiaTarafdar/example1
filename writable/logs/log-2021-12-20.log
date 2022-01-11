@@ -1,0 +1,330 @@
+ERROR - 2021-12-20 04:01:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('f', 'f', '4', 'f')' at line 1
+CRITICAL - 2021-12-20 04:01:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('f', 'f', '4', 'f')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(30): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:13:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952469', 'BCA')' at line 1
+CRITICAL - 2021-12-20 04:13:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952469', 'BCA')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(30): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:15:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952469', 'BCA')' at line 1
+CRITICAL - 2021-12-20 04:15:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952469', 'BCA')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:17:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952469', 'BCA')' at line 1
+CRITICAL - 2021-12-20 04:17:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952469', 'BCA')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:20:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 04:20:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:22:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 04:22:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:27:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 04:27:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:29:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 04:29:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:29:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 04:29:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:34:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 04:34:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:37:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 04:37:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:53:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952468', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 04:53:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952468', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 04:54:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952468', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 04:54:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952468', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 05:09:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952467', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 05:09:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952467', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 05:21:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952468', 'BCA')' at line 1
+CRITICAL - 2021-12-20 05:21:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952468', 'BCA')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 05:24:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952468', 'BCA')' at line 1
+CRITICAL - 2021-12-20 05:24:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `Course`) VALUES ('Bunty Tarafdar', 'come2suku@gmail.com', '9883952468', 'BCA')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 05:26:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 05:26:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-20 05:33:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+CRITICAL - 2021-12-20 05:33:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '9883952469', `Course` = 'BCA'
+WHERE `students`.`id` IN ('4')' at line 1
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `student...', 0)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `student...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `student...')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `student...', Array, false)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\StudentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->store()
+#10 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

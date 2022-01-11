@@ -1,0 +1,139 @@
+CRITICAL - 2021-12-28 02:09:39 --> Cannot use object of type App\Models\Student_Model as array
+#0 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('12')
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-28 02:12:42 --> Cannot use object of type App\Models\Student_Model as array
+#0 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('12')
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-28 02:15:07 --> Array to string conversion
+#0 C:\xampp\htdocs\example\app\Controllers\StudentController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('12')
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-28 02:17:09 --> Cannot use object of type App\Models\Student_Model as array
+#0 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('12')
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-28 02:24:17 --> Undefined constant "App\Controllers\id"
+#0 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('15')
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-28 02:48:18 --> Call to undefined function App\Controllers\dot_array_search()
+#0 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-28 02:49:50 --> Call to undefined function App\Controllers\element()
+#0 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-28 02:50:47 --> Undefined property: App\Controllers\StudentController::$load
+#0 C:\xampp\htdocs\example\app\Controllers\StudentController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-28 02:55:03 --> Undefined property: App\Controllers\StudentController::$load
+#0 C:\xampp\htdocs\example\app\Controllers\StudentController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-28 02:55:22 --> Cannot use object of type App\Models\Student_Model as array
+#0 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-28 02:56:52 --> Array to string conversion
+#0 C:\xampp\htdocs\example\app\Controllers\StudentController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-28 02:57:39 --> Attempt to read property "Name" on array
+#0 C:\xampp\htdocs\example\app\Controllers\StudentController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-28 02:58:06 --> Array to string conversion
+#0 C:\xampp\htdocs\example\app\Controllers\StudentController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-28 03:10:27 --> Undefined constant "App\Controllers\Name"
+#0 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-28 03:11:36 --> Undefined array key "Name"
+#0 C:\xampp\htdocs\example\app\Controllers\StudentController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-28 03:12:28 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\example\app\Controllers\StudentController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->getDelete('16')
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#3 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-28 04:33:33 --> Call to undefined method CodeIgniter\Router\RouteCollection::elete()
+#0 C:\xampp\htdocs\example\system\CodeIgniter.php(705): require()
+#1 C:\xampp\htdocs\example\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-28 04:34:08 --> Undefined array key "id])"
+#0 C:\xampp\htdocs\example\app\Views\students\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\example\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\example\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\example\system\Common.php(1097): CodeIgniter\View\View->render('students/index....', Array, true)
+#4 C:\xampp\htdocs\example\app\Controllers\StudentController.php(16): view('students/index....', Array)
+#5 C:\xampp\htdocs\example\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#6 C:\xampp\htdocs\example\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#7 C:\xampp\htdocs\example\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\example\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\example\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

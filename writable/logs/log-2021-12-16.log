@@ -1,0 +1,56 @@
+CRITICAL - 2021-12-16 05:30:18 --> Class "app\Models\StudentModel" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-16 05:30:51 --> Class "app\Models\StudentModel" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-16 05:30:52 --> Class "app\Models\StudentModel" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-16 05:30:52 --> Class "app\Models\StudentModel" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-16 05:31:05 --> Class "app\Models\StudentModel" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-16 05:31:29 --> Class "app\Models\StudentModel" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-16 05:31:30 --> Class "app\Models\StudentModel" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-16 05:31:30 --> Class "app\Models\StudentModel" not found
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

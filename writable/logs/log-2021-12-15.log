@@ -1,0 +1,132 @@
+CRITICAL - 2021-12-15 00:52:41 --> Undefined variable $name
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Views\frontend\product.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\ProductController.php(10): view('frontend/produc...')
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\ProductController->feature()
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-15 01:18:08 --> syntax error, unexpected token "as", expecting ")"
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\ProductController.php(29): view('frontend/produc...', Array)
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\ProductController->find('Redmi')
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:12:47 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:48:59 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:49:01 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:49:30 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:49:31 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:49:31 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:49:32 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:49:32 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:50:27 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:50:27 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-15 03:50:27 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\codeigniter_4\codeignitier\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter_4\codeignitier\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_4\codeignitier\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_4\codeignitier\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter_4\codeignitier\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
